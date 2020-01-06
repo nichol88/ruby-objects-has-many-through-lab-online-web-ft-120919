@@ -7,7 +7,7 @@ class Genre
 
   def songs(genre)
     Song.all.select{ |s|
-      s.genre ==
+      s.genre == genre
     }
   end
 end
