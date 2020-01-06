@@ -16,4 +16,10 @@ class Genre
   def self.all
     @@all
   end
+
+  def artists
+    Artist.all.select{ |a|
+      a.genre.include?(a)
+    }
+  end
 end
