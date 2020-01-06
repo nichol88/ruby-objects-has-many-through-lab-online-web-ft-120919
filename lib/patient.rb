@@ -15,4 +15,14 @@ class Patient
   def all
     @@all
   end
+
+  def doctors
+
+  end
+
+  def appointments
+    Appointment.all.select{|ap|
+      ap.patient == self
+    }
+  end
 end
