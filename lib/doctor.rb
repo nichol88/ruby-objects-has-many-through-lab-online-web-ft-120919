@@ -16,4 +16,5 @@ class Doctor
       a.doctor == self
     }
   end
+  
 end
