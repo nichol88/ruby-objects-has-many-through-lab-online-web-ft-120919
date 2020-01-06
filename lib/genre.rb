@@ -5,7 +5,9 @@ class Genre
     @name = name
   end
 
-  def songs
-
+  def songs(genre)
+    Song.all.select{ |s|
+      s.genre ==
+    }
   end
 end
