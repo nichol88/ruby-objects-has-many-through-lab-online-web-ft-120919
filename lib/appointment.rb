@@ -1,5 +1,5 @@
 class Appointment
-
+  attr_accessor :doctor
 
   @@all = []
 
@@ -7,8 +7,5 @@ class Appointment
     @@all << self
   end
 
-  def doctor
-
-  end
 
 end
