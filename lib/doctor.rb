@@ -8,6 +8,10 @@ class Doctor
   end
 
   def self.all
-    @@all    
+    @@all
+  end
+
+  def appointments
+
   end
 end
