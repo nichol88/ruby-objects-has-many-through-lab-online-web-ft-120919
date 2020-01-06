@@ -16,5 +16,9 @@ class Doctor
       a.doctor == self
     }
   end
-  
+
+  def new_appointment
+
+  end
+
 end
