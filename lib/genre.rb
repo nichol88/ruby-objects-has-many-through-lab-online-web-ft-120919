@@ -19,7 +19,7 @@ class Genre
 
   def artists
     Artist.all.select{ |a|
-      a.genre.include?(a)
+      a.genres.include?(a)
     }
   end
 end
