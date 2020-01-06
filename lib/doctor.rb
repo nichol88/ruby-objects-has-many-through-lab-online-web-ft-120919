@@ -25,7 +25,7 @@ class Doctor
     Appointment.all.select{ |ap|
       ap.doctor == self
     }.map{ |ap|
-      ap.doctor
+      ap.patient
     }
 
   end
